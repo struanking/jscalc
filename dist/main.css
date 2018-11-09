@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font: 100%/1.4 'sans-serif';
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
+}
+
+#calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr auto 3fr;
+  grid-gap: 1em;
+  width: 100%;
+  max-width: 480px;
+  font-size: 120%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.display {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background: #fff;
+  color: #1795d4;
+  border: solid 1px #1795d4;
+  border-radius: 4px;
+  font-size: 140%;
+  line-height: 1.5;
+  padding: 0.25rem;
+  text-align: right;
+}
+
+.numbers {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+}
+
+.numbers > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.operators {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+}
+
+.operators > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+
+button {
+  /* Aspect ratio to keep square */
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+
+  min-width: 30%;
+  background-color: #ebebeb;
+  color: transparent;
+  border: solid 1px #ebebeb;
+  border-radius: 4px;
+  font-size: 140%;
+  transition: box-shadow 0.25s linear;
+}
+
+button:focus {
+  box-shadow: 0 0 12px #555;
+  outline: none;
+}
+
+button::after {
+  /* center horizontally and vertically */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: attr(value);
+  color: #1b1b1b;
+}
+
+button[value="/"]::after {
+  content: "\00F7"
+}
+
+button[value="*"]::after {
+  content: "\00D7"
+}
+
+button[value="+"]::after {
+  content: "\002B"
+}
+
+button[value="-"]::after {
+  content: "\2212"
+}
+
+button[value="0"] {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* avoid huge button */
+  height: auto;
+  padding-bottom: 0;
+}
+
+button[type="reset"] {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* avoid huge button */
+  height: auto;
+  padding-bottom: 0;
+}
+
+button[type="submit"] {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  /* avoid huge button */
+  height: auto;
+  padding-bottom: 0;
+}
+
+button[value="0"],
+button[value="."] {
+  grid-row-start: 4;
+}
+
+button[value="1"],
+button[value="2"],
+button[value="3"] {
+  grid-row-start: 3;
+}
+
+button[value="4"],
+button[value="5"],
+button[value="6"] {
+  grid-row-start: 2;
+}
+
+button[value="7"],
+button[value="8"],
+button[value="9"] {
+  grid-row-start: 1;
+}
+
+.numbers button {
+  background-color:#fff;
+  border-color: #1795d4;
+}
+.numbers button::after {
+  color:#1795d4;
+}
+
+.operators button {
+  background-color:#1795d4;
+  border-color: #1795d4;
+  transition: all 0.25s linear;
+}
+.operators button::after {
+  color:#fff;
+}
+
+.operators button.pressed {
+  background-color: #6dc8f6;
+}

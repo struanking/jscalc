@@ -14,5 +14,5 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
   },
-  devServer: isProd ? null : { contentBase: "./dist" }
+  devServer: isProd ? {} : { contentBase: "./dist" }
 };

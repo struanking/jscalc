@@ -6,16 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Simple JS Calculator</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
   <div class="wrapper">
-    <header role="banner">
-      <h1>Simple JS Calculator</h1>
-    </header>
-
     <main id="main">
-      <h2>Component will go here</h2>      
+      <form id="calculator">
+        <input type="text" placeholder="0" class="display" role="alert" aria-live="assertive" />
+        <fieldset class="numbers">
+          <div>
+            <button type="button" value="0">0</button>
+            <button type="button" value=".">.</button>
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+          </div>
+        </fieldset>
+        <fieldset class="operators">
+          <div>
+            <button type="button" value="/">&divide;</button>
+            <button type="button" value="*">&times;</button>
+            <button type="button" value="-">&minus;</button>
+            <button type="button" value="+">&plus;</button>
+          </div>
+        </fieldset>
+        <button type="reset" value="AC">All clear</button>
+        <button type="submit" value="=">=</button>
+      </form>
     </main>
   </div>
   <script src="main.js"></script>
