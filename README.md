@@ -3,6 +3,9 @@
 ## Version Number
 1bfd331edc6db7c54d1e799973887da8d5cc212a
 
+## Live version
+https://jscalc-8eb82a.netlify.com/
+
 There's no 3rd party modules in the running code but there is to support ES6 transpiling, test runner and a dev server. Therefore read on for installing and running instructions. 
 
 ## Install
