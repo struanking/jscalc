@@ -103,8 +103,7 @@
   "scope": "/",
   "display": "fullscreen",
   "background_color": "#fff",
-  "background-color": "#fff",
-  "theme-color": "#1795d4",
+  "theme_color": "#1795d4",
   "orientation": "portrait",
   "lang": "en",
   "dir": "ltr"
