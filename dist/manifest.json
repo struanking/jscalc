@@ -98,12 +98,13 @@
         "sizes": "76x76",
         "type": "image/png"
     }
-],
-  "start_url": "/?hs=2349872398472894",
+  ],
+  "start_url": "/",
   "scope": "/",
   "display": "fullscreen",
-  "background_color": "transparent",
-  "theme_color": "#ECC400",
+  "background_color": "#fff",
+  "background-color": "#fff",
+  "theme-color": "#1795d4",
   "orientation": "portrait",
   "lang": "en",
   "dir": "ltr"
