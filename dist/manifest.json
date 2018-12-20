@@ -1,110 +1,110 @@
 {
-  "name": "JS Calc - Simple Calculator",
-  "short_name": "JS Calc PWA",
-  "description": "This is a simple calculator written JavaScript",
-  "icons": [
-    {
-        "src": "/images/948ecc60-f6dc-1f1f-58e1-65b0a56b5c94.webPlatform.png",
-        "sizes": "44x44",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/b470f3be-b4e0-972f-8ab7-3a9f7b3cd7ef.webPlatform.png",
-        "sizes": "48x48",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/b0dd378d-8794-cdbb-4a59-cc0f50e7def7.webPlatform.png",
-        "sizes": "1240x600",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/90c12a7a-04b5-a71c-e740-f3656af40280.webPlatform.png",
-        "sizes": "300x300",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/1bf6f4bd-8a89-66dc-b22c-9651c8b574dc.webPlatform.png",
-        "sizes": "150x150",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/fdd5fc2f-97a6-355e-fd71-1131bf4b1dbd.webPlatform.png",
-        "sizes": "88x88",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/ad67aef0-6810-d989-a39e-d1e719d45bd8.webPlatform.png",
-        "sizes": "24x24",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/203729f3-bdcc-7d87-1ddd-4c962a6b5227.webPlatform.png",
-        "sizes": "50x50",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/2662d305-ffce-958b-0ab3-3ec29259f243.webPlatform.png",
-        "sizes": "620x300",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/13314edc-0bb8-62b3-e0eb-01109e6181aa.webPlatform.png",
-        "sizes": "192x192",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/a4b30ed2-a1da-80be-74af-a77109d8f7b3.webPlatform.png",
-        "sizes": "144x144",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/984eef07-50f9-583c-2732-440dfaed42e2.webPlatform.png",
-        "sizes": "96x96",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/c6e2cc20-d97e-884d-4bf4-e3a30faaa017.webPlatform.png",
-        "sizes": "72x72",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/06bfe90d-95ce-3160-96f9-379f5603158d.webPlatform.png",
-        "sizes": "36x36",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/ios/ios-appicon-1024-1024.png",
-        "sizes": "1024x1024",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/43e26c21-97dc-625e-6d6f-491ef3f24230.webPlatform.png",
-        "sizes": "180x180",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/c81dc987-c8a3-c579-2067-282545027ce4.webPlatform.png",
-        "sizes": "152x152",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/2e2e61d5-a106-0032-b1bb-20773bd15351.webPlatform.png",
-        "sizes": "120x120",
-        "type": "image/png"
-    },
-    {
-        "src": "/images/0f5068e0-72cb-f4df-fbce-ebdc6d4ac16d.webPlatform.png",
-        "sizes": "76x76",
-        "type": "image/png"
-    }
-  ],
-  "start_url": "/",
-  "scope": "/",
-  "display": "fullscreen",
-  "background_color": "#fff",
-  "theme_color": "#1795d4",
-  "orientation": "portrait",
-  "lang": "en",
-  "dir": "ltr"
+    "name": "JS Calc - Simple Calculator",
+    "short_name": "JS Calc PWA",
+    "description": "This is a simple calculator written JavaScript",
+    "icons": [
+        {
+            "src": "/images/images/948ecc60-f6dc-1f1f-58e1-65b0a56b5c94.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/b470f3be-b4e0-972f-8ab7-3a9f7b3cd7ef.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/b0dd378d-8794-cdbb-4a59-cc0f50e7def7.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/90c12a7a-04b5-a71c-e740-f3656af40280.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/1bf6f4bd-8a89-66dc-b22c-9651c8b574dc.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/fdd5fc2f-97a6-355e-fd71-1131bf4b1dbd.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/ad67aef0-6810-d989-a39e-d1e719d45bd8.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/203729f3-bdcc-7d87-1ddd-4c962a6b5227.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/2662d305-ffce-958b-0ab3-3ec29259f243.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/13314edc-0bb8-62b3-e0eb-01109e6181aa.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/a4b30ed2-a1da-80be-74af-a77109d8f7b3.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/984eef07-50f9-583c-2732-440dfaed42e2.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/c6e2cc20-d97e-884d-4bf4-e3a30faaa017.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/06bfe90d-95ce-3160-96f9-379f5603158d.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/ios/ios-appicon-1024-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/43e26c21-97dc-625e-6d6f-491ef3f24230.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/c81dc987-c8a3-c579-2067-282545027ce4.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/2e2e61d5-a106-0032-b1bb-20773bd15351.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/images/0f5068e0-72cb-f4df-fbce-ebdc6d4ac16d.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://jscalc-kingsthings.netlify.com/",
+    "scope": "/",
+    "display": "fullscreen",
+    "background_color": "#fff",
+    "theme_color": "#1795d4",
+    "orientation": "portrait",
+    "lang": "en",
+    "dir": "ltr"
 }
