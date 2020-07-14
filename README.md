@@ -63,3 +63,4 @@ The following are rules that i've aimed to implement for this simple calculator.
 1. No negative number button.
 2. No cancelling just the last entry. AC resets everything.
 3. There may be errors around repeated operator presses.
+
